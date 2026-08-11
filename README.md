@@ -75,5 +75,8 @@ This means transactions remain available after refreshing the page.
 The application is responsive and works across:
 
 - Desktop
-- Tablet
 - Mobile
+
+## Author
+
+Made by Rajput Shraddha
