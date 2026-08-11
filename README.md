@@ -4,6 +4,10 @@ A modern and responsive Expense Tracker application built with React.
 
 It allows users to manage their income and expenses, track their current balance, filter transactions, and store data locally in the browser.
 
+## Live Demo
+
+[View Live Project](https://codsoft-task-1-expense-tracker.netlify.app/)
+
 ## Features
 
 - Add income and expense transactions
