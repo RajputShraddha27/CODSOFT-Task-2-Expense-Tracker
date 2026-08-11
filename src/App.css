@@ -1,0 +1,152 @@
+.navbar-brand {
+  color: white !important;
+  font-size: 1.5rem;
+  letter-spacing:.5px;
+}
+.card{
+  transition:.25s ease;
+}
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+.summary-card{
+  border-radius:15px;
+}
+.summary-card h6{
+  color:#6c757d;
+  font-size:15px;
+}
+.summary-card h4{
+  font-weight:700;
+  margin-top:8px;
+}
+.stats-title{
+  font-size:16px;
+  color:#64748B;
+  font-weight:600;
+}
+.icon-box{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:24px;
+}
+.income-icon{
+  background:#c8eeda;
+  color:#16a34a;
+}
+.expense-icon{
+  background:#e9d3d3;
+  color:#dc2626;
+}
+.balance-icon{
+  background:#cfddef;
+  color:#2563eb;
+}
+.form-label{
+  font-size:16px;
+  color:#334155;
+}
+.form-control,
+.form-select{
+  height:50px;
+  border-radius:12px;
+}
+.form-card h2{
+    font-weight:600;
+    color:#374151;
+}
+.btn-primary:hover{
+    background:#4338ca;
+}
+.history-card h2{
+    font-weight:600;
+    color:#374151;
+}
+.filter{
+  color:#334155;
+}
+/* DARK MODE */
+.dark-theme{
+  background:#111827;
+  color:#F9FAFB;
+}
+.dark-theme .navbar{
+  background:#1F2937 !important;
+  box-shadow:0 5px 18px rgba(0, 0, 0, 0.35) !important;
+}
+.dark-theme .card{
+  background:#1F2937;
+  color:#F9FAFB;
+  border:1px solid #374151 !important;
+}
+.dark-theme .form-control,
+.dark-theme .form-select{
+  background:#374151;
+  color:#F9FAFB;
+  border-color:#4B5563;
+}
+.dark-theme .form-control::placeholder {
+  color: #fff;
+}
+.dark-theme .form-control:focus,
+.dark-theme .form-select:focus{
+  background:#374151;
+  color:#fff;
+  border-color:#6366F1;
+  box-shadow:0 0 0 .2rem rgba(99,102,241,.25);
+}
+.dark-theme .table tbody tr{
+  background:#1F2937;
+  color:#F9FAFB;
+}
+.dark-theme .table tbody td{
+  background:#1F2937;
+  color:#F9FAFB;
+  border-color:#374151;
+}
+.dark-theme .table-light{
+  --bs-table-bg:#374151;
+  --bs-table-color:#fff;
+}
+.dark-theme .form-label,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme h4,
+.dark-theme h5,
+.dark-theme h6,
+.dark-theme p{
+  color:#F9FAFB ;
+}
+
+@media (max-width:768px){
+  .navbar .container{
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+}
+.summary-card{
+    margin-bottom:15px;
+}
+.form-card,
+.history-card{
+    padding:18px !important;
+}
+.table-responsive{
+    font-size:14px;
+}
+.modal-dialog{
+    margin:15px;
+}
+.btn{
+    width:100%;
+}
+.d-flex.gap-2{
+    flex-direction:column;
+}
+}
