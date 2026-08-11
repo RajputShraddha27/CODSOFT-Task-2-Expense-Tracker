@@ -6,7 +6,7 @@ It allows users to manage their income and expenses, track their current balance
 
 ## Live Demo
 
-[View Live Project](https://codsoft-task-1-expense-tracker.netlify.app/)
+[View Live Project](https://codsoft-task-2-expense-tracker.netlify.app/)
 
 ## Features
 
