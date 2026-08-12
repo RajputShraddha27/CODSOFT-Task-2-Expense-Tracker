@@ -2,6 +2,7 @@
   "name": "expense-tracker",
   "private": true,
   "version": "0.0.0",
+  "author": "Rajput Shraddha",
   "type": "module",
   "scripts": {
     "dev": "vite",
